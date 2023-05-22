@@ -1,6 +1,7 @@
+
 .App {
   text-align: center;
-  background-color: white;
+  color: white;
 }
 
 .App-logo {
@@ -37,6 +38,22 @@
     transform: rotate(360deg);
   }
 }
+label {
+  font-weight: bold;
+  display: block;
+  width: 150px;
+  margin: auto;
+
+  }
+button {
+  background-color: green;
+  width: 150px;
+  text-align: center;
+}
+
+body {
+  background-color: #3d79d8;
+}
 
 #scrollBox {
   width: 600px;
@@ -45,6 +62,14 @@
   border-style: solid;
   scrollbar-color: gray #3d79d8;
 
+}
+
+::-webkit-scrollbar {
+  background-color: #3d79d8;
+}
+
+::-webkit-scrollbar-thumb {
+  background: gray;
 }
 
 #hourly {
